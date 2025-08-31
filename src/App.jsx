@@ -7,11 +7,6 @@ import Agence from "./pages/Agence";
 const App = () => {
   return (
     <div>
-      <div className="text-sm my-20">
-        <Link to="/">Home</Link>
-        <Link to="/agence">Agence</Link>
-        <Link to="/project">Project</Link>
-      </div>
       <Routes>
         <Route path="/" element={<Home></Home>}>
           {" "}
